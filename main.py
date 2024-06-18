@@ -51,7 +51,7 @@ if __name__ == "__main__":
                 print("3. Usuń firmę")
                 delete_company
                 print("4. Aktualizuj dane firmy")
-                edit_company
+                update_company
 
             if menu_option == "2":
                 print("Klienci - Co chcesz zrobić?")
@@ -73,7 +73,7 @@ if __name__ == "__main__":
                 print("1. Wyświetl pracowników")
                 show_workers
                 print("2. Dodaj pracownika")
-                add_new_worker
+                add_worker
                 print("3. Usuń pracownika")
                 delete_worker
                 print("4. Aktualizuj dane pracownika")
