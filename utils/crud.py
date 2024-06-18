@@ -1,3 +1,5 @@
+#logowanie/rejestracja#
+
 def add_new_user(users: list):
     new_user_login = input("<LOGIN>")
     new_user_password = input("<PASSWORD>:")
