@@ -1,5 +1,5 @@
 from models.data import users
-from utils.crud import
+from utils.crud import add_new_user
 
 #Logowanie#
 if __name__ == "__main__":
@@ -20,16 +20,14 @@ if __name__ == "__main__":
             if user_login =="" and user_password=="":
                 print("logowanie się powiodło")
                 return True
+
             else:
                 print("logowanie się NIE powiodło, spróbuj ponownie")
                 return False
 
         if menu_option == "2":
             print("Zarejestruj się:")
-            new_user_login = input("<LOGIN>")
-            new_user_password = input("<PASSWORD>:")
-            new_user: dict = {"login": new_user_login,"password": new_user_password}
-            users.append (new_user)
+            add_new_user(users)
 
 
 
