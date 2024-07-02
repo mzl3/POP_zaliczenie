@@ -1,7 +1,3 @@
-users: list[dict] = [
-    {"name": "admin", "password": "admin"}
-]
-
 #companies#
 companies: list[dict] = [
     {"name": "Firma1", "customers": " ", "location": "San Francisco"},
@@ -20,6 +16,6 @@ customers: list[dict] = [
 
 #workers:#
 workers: list[dict] = [
-    {"name": "aa", "surname": "bb"},
+    {"name": "aa", "surname": "bb", "for": "Firma2"},
     {"name": "Tadeusz", "surname": "Hulajnoga", "for": "Tadex"}
 ]
