@@ -55,11 +55,15 @@ if __name__ == "__main__":
 
             if menu_option == "2":
                 print("Klienci - Co chcesz zrobić?")
+                print("0. Zakończ program")
                 print("1. Wyświetl klientów")
                 print("2. Dodaj klienta")
                 print("3. Usuń klienta")
                 print("4. Aktualizuj dane klienta")
                 menu_option: str = input("Menu:")
+                if menu_option == "0":
+                        print("Program kończy pracę")
+                        break
                 if menu_option == "1":
                     show_customers(customers)
                 if menu_option == "2":
@@ -73,11 +77,15 @@ if __name__ == "__main__":
 
             if menu_option == "3":
                 print("Pracownicy - Co chcesz zrobić?")
+                print("0. Zakończ program")
                 print("1. Wyświetl pracowników")
                 print("2. Dodaj pracownika")
                 print("3. Usuń pracownika")
                 print("4. Aktualizuj dane pracownika")
                 menu_option: str = input("Menu:")
+                if menu_option == "0":
+                    print("Program kończy pracę")
+                    break
                 if menu_option == "1":
                     show_workers(workers)
 
