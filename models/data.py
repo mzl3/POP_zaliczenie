@@ -4,7 +4,6 @@ companies: list[dict] = [
     {"name": "Firma2", "customers": "2", "location": "Sao Paulo"},
     {"name": "Tadex", "customers": "0", "location": "Zbąszynek"},
 
-
 ]
 
 customers: list[dict] = [
